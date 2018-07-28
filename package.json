@@ -1,6 +1,7 @@
 {
   "name": "vue-ztree",
   "version": "0.1.0",
+  "description": "A Vue.2x component of ztree",
   "private": false,
   "main": "src/lib/vue-ztree.vue",
   "scripts": {
@@ -8,16 +9,26 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "repository": {
+    "repository": {
     "type": "git",
     "url": "hhttps://github.com/arixse/vue-ztree.git"
   },
   "bug":{
     "url":"https://github.com/arixse/vue-ztree/issues"
   },
+  "keywords": [
+    "vue",
+    "ztree",
+    "jquery ztree",
+    "vue-ztree",
+    "vue ztree",
+    "vue component"
+  ],
+  "author":"arixse",
   "dependencies": {
     "vue": "^2.5.16"
   },
+  "license":"MIT",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",
     "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
