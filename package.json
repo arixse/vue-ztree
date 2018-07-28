@@ -22,7 +22,8 @@
     "jquery ztree",
     "vue-ztree",
     "vue ztree",
-    "vue component"
+    "vue component",
+    "ztree-for-vue"
   ],
   "author":"arixse",
   "dependencies": {
