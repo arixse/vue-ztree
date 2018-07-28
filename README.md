@@ -105,5 +105,6 @@ const callbacks = [
     'onRename',
     'onRightClick'
 ]
+```
 ## LICENSE
 MIT
