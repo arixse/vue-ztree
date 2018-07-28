@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <vue-ztree :treeNodes="treeNodes" />
+    <vue-ztree :treeNodes="treeNodes" @onClick="handleTreeClick" :check="check" @onCheck="handleCheck"/>
   </div>
 </template>
 
@@ -24,12 +24,23 @@ export default {
   name: "app",
   data() {
     return {
-      treeNodes: nodes
+      treeNodes: nodes,
+      check:{
+        enable:true
+      }
     };
   },
   components: {
     // HelloWorld,
     VueZtree
+  },
+  methods:{
+    handleTreeClick(event,treeId,treeNode) {
+      console.log(event,treeId,treeNode)
+    },
+    handleCheck(event,treeId,treeNode) {
+      console.log(event,treeId,treeNode);
+    }
   }
 };
 </script>
