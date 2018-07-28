@@ -8,6 +8,13 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "hhttps://github.com/arixse/vue-ztree.git"
+  },
+  "bug":{
+    "url":"https://github.com/arixse/vue-ztree/issues"
+  },
   "dependencies": {
     "vue": "^2.5.16"
   },
