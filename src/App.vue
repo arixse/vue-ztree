@@ -8,7 +8,7 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import VueZtree from "./lib/vue-ztree";
+import VueZtree from "ztree-for-vue";
 const nodes= [
 	{name: '父节点1',
     id:0,
