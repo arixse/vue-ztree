@@ -1,8 +1,9 @@
 <template>
-    <div ref="ztree" :id="treeId"></div>
+    <div class="ztree" ref="ztree" :id="treeId"></div>
 </template>
 
 <script>
+let $ = window.jQuery;
 window.ztree = {};
 const callbacks = [
     'beforeAsync',
@@ -112,7 +113,7 @@ export default {
         },
         create() {
             if(this.treeNodes && this.treeNodes.length) {
-                this.ztree = $.fn.zTree.init(this.getZtreeDom(),this.treeNodes,this.getTreeSettings())
+                this.ztree = $.fn.zTree.init($(this.getZtreeDom()),this.getTreeSettings(),this.treeNodes)
                 if(typeof this.treeName == 'string') {
                     window.ztree[this.treeName] = this.ztree; 
                 }
