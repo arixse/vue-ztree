@@ -1,6 +1,6 @@
 {
   "name": "ztree-for-vue",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A Vue.2x component of ztree",
   "private": false,
   "main": "src/lib/vue-ztree.vue",
