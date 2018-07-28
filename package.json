@@ -1,7 +1,8 @@
 {
   "name": "vue-ztree",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "src/lib/vue-ztree.vue",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

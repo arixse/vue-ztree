@@ -1,6 +1,6 @@
 # vue-ztree
 > A Vue.2x component of ztree
-## feature
+## 
 ## Project setup
 ```
 yarn install
