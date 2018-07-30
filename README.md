@@ -1,7 +1,7 @@
 # vue-ztree
 > A Vue.2x component of ztree 👍
 ## How to install ztree-for-vue?
-First,you should install jquery and ztree package,you can install them with anyway,such as script,import or require,the ztree-for-vue only need as global veriable $ and $.fn.ztree.You should also need to load the css files for ztree.
+First,you should install jquery and ztree package,you can install them with anyway,such as script,es6,amd or commonjs,the ztree-for-vue only need a global veriable $ and $.fn.ztree.You should also need to load the css files for ztree.
 ```sh
 npm install ztree-for-vue --save-dev
 #or yarn add ztree-for-vue -D
