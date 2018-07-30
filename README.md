@@ -8,6 +8,7 @@ npm install ztree-for-vue --save-dev
 ```
 ## How to use it? 
 ```html
+<template>
   <div id="app">
     <vue-ztree :treeNodes="treeNodes" @onClick="handleTreeClick" :check="check" @onCheck="handleCheck"/>
   </div>
