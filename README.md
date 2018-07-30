@@ -72,6 +72,8 @@ the zTree eidt setting
 the zTree view setting
 >Please go [http://www.treejs.cn/v3/api.php](http://www.treejs.cn/v3/api.php) to get more infomations
 ## Event
+ztree-for-vue provide some events looks like the ztree callback,
+we can only listen the events that we need ,the events that we not need will not be emited.
 ```javascript
 const callbacks = [
     'beforeAsync',
