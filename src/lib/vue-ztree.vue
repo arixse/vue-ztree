@@ -128,6 +128,9 @@ export default {
         }
     },
     watch:{
+        treeNodes() {
+           this.refresh();
+        },
         treeName() {
             this.refresh();
         },

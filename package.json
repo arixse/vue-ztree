@@ -9,12 +9,12 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "hhttps://github.com/arixse/vue-ztree.git"
   },
-  "bug":{
-    "url":"https://github.com/arixse/vue-ztree/issues"
+  "bug": {
+    "url": "https://github.com/arixse/vue-ztree/issues"
   },
   "keywords": [
     "vue",
@@ -25,16 +25,17 @@
     "vue component",
     "ztree-for-vue"
   ],
-  "author":"arixse",
+  "author": "arixse",
   "dependencies": {
     "vue": "^2.5.16"
   },
-  "license":"MIT",
+  "license": "MIT",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",
     "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
     "@vue/cli-service": "^3.0.0-rc.5",
-    "vue-template-compiler": "^2.5.16"
+    "vue-template-compiler": "^2.5.16",
+    "ztree-for-vue": "^1.1.8"
   },
   "eslintConfig": {
     "root": true,

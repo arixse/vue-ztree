@@ -24,7 +24,7 @@ export default {
   name: "app",
   data() {
     return {
-      treeNodes: nodes,
+      treeNodes: [],
       check:{
         enable:true
       }
@@ -41,6 +41,11 @@ export default {
     handleCheck(event,treeId,treeNode) {
       console.log(event,treeId,treeNode);
     }
+  },
+  mounted() {
+    setTimeout(()=>{
+      this.treeNodes = nodes;
+    },2000)
   }
 };
 </script>
