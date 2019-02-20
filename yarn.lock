@@ -6910,9 +6910,9 @@ yorkie@^1.0.3:
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
 
-ztree-for-vue@^1.1.8:
-  version "1.1.8"
-  resolved "http://registry.npm.taobao.org/ztree-for-vue/download/ztree-for-vue-1.1.8.tgz#bdf2f3e1edd702c8d32ac2862548f69761773575"
-  integrity sha1-vfLz4e3XAsjTKsKGJUj2l2F3NXU=
+ztree-for-vue@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ztree-for-vue/-/ztree-for-vue-1.2.0.tgz#543a6141eee01bd843c9bdb07bbd6aa5712a039b"
+  integrity sha512-sboJtPphEu/pgG3jIAQOYUujJQpo4v+7LYN3pNPJp4YdKUCTIifJ0zIys0OL8NhD+75HQ9tTrOoU+5oQ2AOMNQ==
   dependencies:
     vue "^2.5.16"

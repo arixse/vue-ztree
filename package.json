@@ -35,7 +35,7 @@
     "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
     "@vue/cli-service": "^3.0.0-rc.5",
     "vue-template-compiler": "^2.5.16",
-    "ztree-for-vue": "^1.1.8"
+    "ztree-for-vue": "^1.2.0"
   },
   "eslintConfig": {
     "root": true,
