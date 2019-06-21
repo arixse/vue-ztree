@@ -1,6 +1,6 @@
 {
   "name": "ztree-for-vue",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "A Vue.2x component of ztree",
   "private": false,
   "main": "src/lib/vue-ztree.vue",
@@ -27,14 +27,15 @@
   ],
   "author": "arixse",
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.6.10"
   },
   "license": "MIT",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",
     "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
     "@vue/cli-service": "^3.0.0-rc.5",
-    "vue-template-compiler": "^2.5.16",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.0.1",
     "ztree-for-vue": "^1.2.0"
   },
   "eslintConfig": {

@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <vue-ztree :treeNodes="treeNodes" @onClick="handleTreeClick" :check="check" @onCheck="handleCheck"/>
+    <vue-ztree :treeNodes="treeNodes" @onClick="handleTreeClick" :check="check" @onCheck="handleCheck" ref="tree"/>
   </div>
 </template>
 
@@ -36,7 +36,8 @@ export default {
   },
   methods:{
     handleTreeClick(event,treeId,treeNode) {
-      console.log(event,treeId,treeNode)
+      let path = treeNode.getPath()
+      console.log(path)
     },
     handleCheck(event,treeId,treeNode) {
       console.log(event,treeId,treeNode);
