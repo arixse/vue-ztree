@@ -3696,7 +3696,8 @@ date-now@^0.1.4:
 
 de-indent@^1.0.2:
   version "1.0.2"
-  resolved "http://registry.npm.taobao.org/de-indent/download/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
+  resolved "http://172.16.129.20:4873/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
+  integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
 
 debug@*, debug@^4.1.0, debug@^4.1.1:
   version "4.1.1"
@@ -5142,9 +5143,14 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-he@1.1.x, he@^1.1.0:
+he@1.1.x:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/he/download/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
+
+he@^1.1.0:
+  version "1.2.0"
+  resolved "http://172.16.129.20:4873/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
+  integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
 
 hex-color-regex@^1.1.0:
   version "1.1.0"
