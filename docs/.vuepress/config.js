@@ -4,7 +4,7 @@ module.exports = {
 	configureWebpack: {
 		resolve: {
 			alias: {
-				assets: "public"
+				"@alias": "./public"
 			}
 		}
 	}

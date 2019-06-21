@@ -8,6 +8,9 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import '../public/libs/jquery-1.4.4.min.js'
+import '../public/libs/jquery.ztree.all.min.js'
+import '../public/libs/zTree_v3-master/css/zTreeStyle/zTreeStyle.css'
 import VueZtree from "ztree-for-vue";
 const nodes= [
 	{name: '父节点1',
