@@ -3,8 +3,8 @@
 </template>
 
 <script>
-let $ = window.jQuery;
-window.ztree = {};
+// let $ = window.jQuery;
+// window.ztree = {};
 const callbacks = [
     'beforeAsync',
     'beforeCheck',
@@ -111,11 +111,11 @@ export default {
                 callback:this.getEvents()
             }
         },
-        create() {
+        mounted() {
             if(this.treeNodes && this.treeNodes.length) {
                 this.ztree = $.fn.zTree.init($(this.getZtreeDom()),this.getTreeSettings(),this.treeNodes)
                 if(typeof this.treeName == 'string') {
-                    window.ztree[this.treeName] = this.ztree; 
+                    window[this.treeName] = this.ztree; 
                 }
             }
         },
