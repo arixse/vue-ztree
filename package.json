@@ -8,8 +8,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "doc:dev":"vuepress dev docs",
-    "doc:build":"vuepress build docs"
+    "docs:dev":"vuepress dev docs",
+    "docs:build":"vuepress build docs"
   },
   "repository": {
     "type": "git",
