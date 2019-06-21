@@ -1,6 +1,6 @@
 module.exports = {
-	title: "123",
-	description: "sss",
+	title: "ztree-for-vue",
+	description: "A Vue.2x component of ztree 👍",
 	configureWebpack: {
 		resolve: {
 			alias: {
