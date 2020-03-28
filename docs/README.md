@@ -1,13 +1,15 @@
 
-## 🐲How to install ztree-for-vue?
+## Install
 First,you should install jquery and ztree package,you can install them with anyway,such as script,es6,amd or commonjs,the ztree-for-vue only need a global veriable $ and $.fn.ztree.You should also need to load the css files for ztree.
 ```sh
 npm install ztree-for-vue --save-dev
 #or yarn add ztree-for-vue -D
 ```
-## 🌈How to use it? 
-🚀举个最简单的例子：
-
+## Usage
+举个最简单的🌰：
+<client-only>
+<demo-1 />
+</client-only>
 ```html
 <template>
   <div id="app">

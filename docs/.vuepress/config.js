@@ -1,8 +1,8 @@
 module.exports = {
 	title: "ztree-for-vue",
-	// base: "/<REPO>/",
+	base: "/<REPO>/",
 	themeConfig: {
-		nav: [{ text: "指南", link: "/" }, { text: "Api", link: "/api" }],
+		nav: [{ text: "指南", link: "/" }, { text: "配置", link: "/api" }],
 		sidebar: false
 	},
 	description: "A Vue.2x component of ztree 👍",
